@@ -1,0 +1,5 @@
+Titulo = print("El Creador de Historias")
+Nombre = input("Ingrese un nombre:")
+Lugar = input("Ingrese un lugar:")
+Verbo = input("Ingrese un verbo:")
+Final = print(f"Un dia {Nombre} fue hasta {Lugar} y se encontro con un {Verbo}")

@@ -1,0 +1,5 @@
+Titulo = print("Calculadora de IMC")
+Peso = float(input("Introduzca su peso:"))
+Altura = float(input("Introduzca su altura:"))
+Calculo = float(Peso / (Altura ** 2))
+Respuesta = print(f"Tu IMC es:{Calculo}")
