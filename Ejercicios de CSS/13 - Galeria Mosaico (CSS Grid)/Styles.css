@@ -1,0 +1,17 @@
+.galeria-grid {
+    display: grid;
+    gap: 15px;
+
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.foto img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.foto-grande {
+    grid-column: span 2;
+}

@@ -1,0 +1,53 @@
+:root {
+    --color-principal: #3498db;
+    --color-fondo: #ffffff;
+    --color-texto: #222;
+    --tam-boton: calc(16px + 0.5vw);
+}
+
+.dark-mode {
+    --color-principal: #9b59b6;
+    --color-fondo: #222;
+    --color-texto: #f0f0f0;
+}
+
+body {
+    background: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: sans-serif;
+    padding: 30px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+#themeToggle {
+    background: var(--color-principal);
+    color: white;
+    padding: calc(var(--tam-boton) * 1);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.btn-palpitar {
+    display: inline-block;
+    padding: calc(var(--tam-boton) * 1.2);
+    background: var(--color-principal);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    animation: palpitar 1s infinite ease-in-out;
+}
+
+@keyframes palpitar {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.12);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

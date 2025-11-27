@@ -1,0 +1,41 @@
+.precios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.tarjeta {
+    background: #f8f8f8;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.decorativo {
+    grid-column: 1 / -1; 
+    height: 40px;
+    background: linear-gradient(90deg, #3498db, #9b59b6);
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .precios {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .precios {
+        grid-template-columns: 1fr;
+    }
+
+    .tarjeta {
+        width: 100%;
+    }
+
+    .decorativo {
+        display: none;
+    }
+}
