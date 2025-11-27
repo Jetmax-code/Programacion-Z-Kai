@@ -1,0 +1,63 @@
+:root {
+    --color-principal: #3498db;
+    --color-texto: #333;
+    --color-blanco: #fff;
+    --fuente-base: 'Arial', sans-serif;
+}
+
+.tarjeta-perfil {
+    background-color: var(--color-blanco);
+    color: var(--color-texto);
+    font-family: var(--fuente-base);
+
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.foto-perfil {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.nombre {
+    margin: 10px 0 5px;
+    font-size: 1.4em;
+    color: var(--color-principal);
+}
+
+.bio {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    max-width: 280px;
+}
+
+.redes-sociales {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.redes-sociales a {
+    text-decoration: none;
+    color: var(--color-principal);
+    font-weight: bold;
+}
+
+@media (min-width: 600px) {
+    .tarjeta-perfil {
+        width: 350px;
+    }
+}
