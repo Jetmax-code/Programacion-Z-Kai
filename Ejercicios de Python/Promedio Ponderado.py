@@ -1,9 +1,0 @@
-Titulo = print("Promedio Ponderado")
-Nota_1 = int(input("Introduzca la primera nota:"))
-Nota_2 = int(input("Introduzca la segunda nota:"))
-Nota_3 = int(input("Introduzca la tercera nota:"))
-Calculo_nota_1 = Nota_1 * 0.2
-Calculo_nota_2 = Nota_2 * 0.3
-Calculo_nota_3 = Nota_3 * 0.5
-Calculo_final = Calculo_nota_1 + Calculo_nota_2 + Calculo_nota_3
-Resultado = print(f"La nota final es: {Calculo_final}")
