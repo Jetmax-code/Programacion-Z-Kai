@@ -1,0 +1,9 @@
+.zoom-al-perrito img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.zoom-al-perrito img:hover {
+    transform: scale(1.1);
+}

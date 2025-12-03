@@ -1,0 +1,17 @@
+:root {
+    --color-principal: #8800ff;
+    --color-fondo: #ecf0f1;
+    --color-texto: #250045;
+}
+
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: sans-serif;
+}
+
+.tarjeta {
+    border: 2px solid var(--color-principal);
+    padding: 20px;
+    border-radius: 10px;
+}

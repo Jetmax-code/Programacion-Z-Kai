@@ -1,0 +1,14 @@
+.soy-padre {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #858585;
+}
+
+.en-el-centro {
+    padding: 20px 40px;
+    background: #ff5c5c;
+    color: black;
+    border-radius: 10px;
+}

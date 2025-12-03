@@ -1,0 +1,20 @@
+<?php
+function sumarmatrices($a, $b) {
+    $resultado = [];
+
+    for ($i = 0; $i < 3; $i++) {
+        $fila = [];
+        for ($j = 0; $j < 3; $j++) {
+            $fila[] = $a[$i][$j] + $b[$i][$j];
+        }
+        $resultado[] = $fila;
+    }
+
+    return $resultado;
+}
+
+$m1 = [[1,2,3],[4,5,6],[7,8,9]];
+$m2 = [[9,8,7],[6,5,4],[3,2,1]];
+
+print_r(sumarmatrices($m1,$m2));
+?>

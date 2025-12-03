@@ -1,0 +1,8 @@
+.lista-marty li {
+    padding: 10px;
+}
+
+.lista-marty li:nth-child(even) {
+    background-color: #000000;
+    color: #ffffff;
+}

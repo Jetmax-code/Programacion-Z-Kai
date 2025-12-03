@@ -1,0 +1,14 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 15px;
+    font-family: Arial;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial;
+}

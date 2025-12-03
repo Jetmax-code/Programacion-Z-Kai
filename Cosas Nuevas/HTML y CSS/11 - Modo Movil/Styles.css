@@ -1,0 +1,16 @@
+.galeria-de-perrito {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.galeria-de-perrito img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+    .galeria-grid {
+        grid-template-columns: 1fr;
+    }
+}

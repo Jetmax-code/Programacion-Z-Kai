@@ -1,0 +1,13 @@
+.boton-interesante {
+    text-decoration: none;
+    background-color: #ff6b00;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.boton-interesante:hover {
+    background-color: #eb4034;
+}

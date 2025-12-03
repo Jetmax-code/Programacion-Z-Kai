@@ -1,0 +1,8 @@
+.hero {
+    background-image: url("https://www.clarin.com/2025/09/29/WUWL2kAlB_360x240__1.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    color: white;
+    text-align: center;
+}
