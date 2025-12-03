@@ -18,7 +18,8 @@ int main() {
         cin >> intento;
     }
 
-    cout << "Le atinaste, el numero era " << numeroSecreto << "." << endl;
+    cout << "Le atinaste, el numero era " << numerosecreto << "." << endl;
 
     return 0;
+
 }
